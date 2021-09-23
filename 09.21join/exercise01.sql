@@ -53,6 +53,6 @@ SELECT * FROM tb_character
     
 SELECT nick_name, `function`, name_character, weapon
 	FROM tb_class
-	INNER JOIN tb_character ON fk_class = id_class;
-    
+	INNER JOIN tb_character ON fk_class = id_class
+    WHERE `function` = "Assassin";
 
