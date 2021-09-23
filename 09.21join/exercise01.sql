@@ -7,7 +7,7 @@ CREATE TABLE tb_class (
     nick_name VARCHAR (15) NOT NULL,
     `function` VARCHAR (25),
     
-    PRIMARY KEY (id_class)
+    PRIMARY KEY (id_class) 
     
     );
     
